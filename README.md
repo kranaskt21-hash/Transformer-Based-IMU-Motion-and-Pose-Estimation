@@ -24,18 +24,7 @@ pip install -r requirements.txt
 ### Data 
 The dataset used by this project is the Visual-Inertial Event Dataset (TUM-VIE), which is publicly accesible from https://cvg.cit.tum.de/data/datasets/visual-inertial-event-dataset
 
-### Usage:
-1. Clone the repository.
-2. Position Networks 
-    1. To train/test **RoNIN ResNet** model:
-        * run ```src/ronin_resnet_baseline.py``` 
-    2. To train/test **RoNIN Transformer**:
-        * run ```src/train_transformer_encoder_cls_token.py``` 
-3. Heading Network
-    * run ```src/train_transformer_quaternions.py``` 
 
-### Acknowledgements
-This project was developed by [Daniel Eskandar](https://github.com/danieleskandar), [Florian Sprick](https://github.com/FlorianSp2000) and [Philipp Davydov](https://github.com/drodel01).
 
 Our work builds upon the following paper:
 [Herath, S., Yan, H. and Furukawa, Y., 2020, May. RoNIN: Robust Neural Inertial Navigation in the Wild: Benchmark, Evaluations, & New Methods. In 2020 IEEE International Conference on Robotics and Automation (ICRA) (pp. 3146-3152). IEEE.](https://ieeexplore.ieee.org/abstract/document/9196860)
